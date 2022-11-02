@@ -3,11 +3,16 @@
     grid-template-columns: 35% 50%;
     gap: 15%;
 }
-
+.about__me-image {
+    border-radius: 1rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: var(--transition);
+}
 .about__me {
     width: 100%;
     aspect-ratio: 1/1;
-    border-radius: 2rem;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
     background: linear-gradient(
         45deg, 
         transparent, 
@@ -19,12 +24,7 @@
 
 }
 
-.about__me-image {
-    border-radius: 2rem;
-    overflow: hidden;
-    transform: rotate(10deg);
-    transition: var(--transition);
-}
+
 
 .about__me-image:hover {
     transform: rotate(0);
