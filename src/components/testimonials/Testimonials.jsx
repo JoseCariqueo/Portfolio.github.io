@@ -18,17 +18,20 @@ const data = [
   {
     avatar: AVTR1,
     name: "Diego Molina",
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi modi optio dolorem iure eaque sed deserunt neque voluptate temporibus. Vitae?'
+    position: "Network Engineer",
+    review: 'José Luis corresponde a un profesional con una marcada orientación a la obtención de resultados. Dado su perfil de investigación y proactividad, se desenvuelve de manera excelente tanto en Soporte como en lo que es su fuerte (desarrollo y programación), donde cumple con todos los resultados y metas en los tiempos establecidos. Posee una forma de trabajar metódica y documentada lo cual permite realizar seguimiento de manera fácil y expedita de los avances en proyectos. Sin duda un gran elemento capaz de desenvolverse en cualquier entorno TI.'
   },
   {
     avatar: AVTR2,
     name: "Guillermo Romero",
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi modi optio dolorem iure eaque sed deserunt neque voluptate temporibus. Vitae?'
+    position: "Level 2 support",
+    review: 'José es una persona que logra motivarte a ser la mejor versión de ti, haciendo énfasis en que te prepares y estudies para ser la mejor versión profesional que puedas llegar a ser, adicionalmente tiene voluntad de enseñarte acerca del conocimiento que posee y que aprende con el tiempo es muy sencillo trabajar con él porque es una persona genuina y desenvuelta a la hora de emprender tareas rutinarias o nuevos desafíos, gracias a él he incursionado en cursos y aprendizajes que me han ayudado a crecer como profesional.'
   },
   {
     avatar: AVTR3,
     name: "Cristian Silva",
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi modi optio dolorem iure eaque sed deserunt neque voluptate temporibus. Vitae?'
+    position: "Senior network administrator",
+    review: 'José es un trabajador muy profesional, prolijo y comprometido con las labores que desempeña, busca la mejor solución, considerando el costo beneficio. es una persona confiable y comprometida con la organización y su equipo de trabajo'
   },
 ]
 
@@ -37,7 +40,7 @@ const Testimonials = () => {
   return (
     <section id="testimonials">
       <h5> Experiencia con compañeros de trabajo</h5>
-      <h2> Recomendaciones</h2>
+      <h2> Recomendaciones desde Linkedin</h2>
 
       <Swiper className="container testimonials__container"
       // install Swiper modules
@@ -48,13 +51,14 @@ const Testimonials = () => {
       pagination={{ clickable: true }}>
 
         {
-          data.map(({avatar, name, review}, index) => {
+          data.map(({avatar, name,position, review}, index) => {
             return(
               <SwiperSlide key={index} className="testimonial">
           <div className="client__avatar">
             <img src={avatar} alt="avatar 1" />
           </div>
           <h5 className='job__name'>{name}</h5>
+          <h6 className='job__position'>{position}</h6>
           <small className='job__review'>
           {review}
           </small>

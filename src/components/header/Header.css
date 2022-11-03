@@ -48,16 +48,15 @@ header {
     left: calc(50% - 10rem);
     margin-top: 4rem;
     overflow: hidden;
-    padding: -2rem 1.5rem 1.5rem 1.5rem;
+    padding: -8rem 1.5rem 1.5rem 1.5rem;
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
     
     
 }
 .header__img {
-  
-    background-color: brown;
-    height: 20rem;
-    margin-left: 1%;
+    
+    height: 15rem;
+    margin-left: -3%;
     margin-top: 1rem;
     
 }
@@ -81,6 +80,7 @@ header {
 @media screen and (max-width: 600px) {
     header {
         height: 100vh;
+        margin-bottom: -17rem;
     }
     .header__socials,
      .scroll__down {

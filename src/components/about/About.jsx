@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import levi from '../../assets/levi.png'
+import levi from '../../assets/AvatarJose.png'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {ImFolderOpen} from 'react-icons/im'
@@ -34,8 +34,9 @@ const About = () => {
               <small> 3 a medio completar</small>
             </article>
           </div>
-    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo voluptas enim error, neque quos provident sint maiores. Provident odio aliquid asperiores quidem aut praesentium placeat, quibusdam odit voluptas dolore reiciendis?</p>
-      <a href='#contact' className='btn btn-primary'> Hablemos uwu? </a>
+    <p> Titulado de Analista de Sistemas en IPP, mi práctica profesional fue de 6 meses en Kyndryl (ex IBM) en la cual fui parte de diferentes proyectos de desarrollo web, enfocado en el Front end. En mi práctica pude obtener diferentes certificaciones enfocadas en metodología agile. Actualmente cuento con 6 meses de experiencia en desarrollo
+</p>
+      <a href='#contact' className='btn btn-primary'> ¿Hablemos? </a>
         </div>
       </div>
 
