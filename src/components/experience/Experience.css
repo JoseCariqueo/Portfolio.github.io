@@ -46,6 +46,22 @@
     margin-left: 1rem;
 }
 
+/*=============== MEDIA QUERIES (LARGE DEVICES)   =====================*/
+@media screen and (min-width: 1500px) {
+    .experience__container{
+        grid-template-columns: 1fr;
+    }
+    .experience__container > div {
+        width: 40%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+    .experience__content{
+        padding: 1rem;
+    }
+
+}
+
 /*=============== MEDIA QUERIES (MEDIUM DEVICES)   =====================*/
 @media screen and (max-width: 1024px) {
     .experience__container{

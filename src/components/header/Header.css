@@ -67,23 +67,127 @@ header {
     bottom:5rem;
     transform: rotate(90deg);
     font-weight: 300;
-    font-size: 0.9rem;
+    font-size: 0.9rem;}
 
+/*=============== MEDIA QUERIES (LARGE DEVICES)   =====================*/
+
+@media screen and (min-width: 1500px) {
+    .header__img {
+        width: 43rem;
+        height: 43rem;
+        margin-left: -1%;
+        margin-top: -1rem;
+        
+    }
+    .me {
+        background: linear-gradient(var(--color-bg), transparent);
+        width: 40rem;
+        height: 40rem;
+        position: absolute;
+        left: calc(40% - 10rem);
+        margin-top: 4rem;
+        overflow: hidden;
+        padding: -8rem 1.5rem 1.5rem 1.5rem;
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+        
+        
+    }
+    .header__socials{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        position: absolute;
+        left: 0;
+        bottom: 24rem;
+    }
+    .scroll__down {
+        position: absolute;
+        right: -2.3rem;
+        bottom:27rem;
+        transform: rotate(90deg);
+        font-weight: 500;
+        font-size: 2rem;}
 }
+
+
+
+
+
 /*=============== MEDIA QUERIES (MEDIUM DEVICES)   =====================*/
 @media screen and (max-width: 1024px) {
     header {
-        height: 68vh;
+        height: 80vh;
     }
+    .scroll__down {
+        position: absolute;
+        right: -2.3rem;
+        bottom:20rem;
+        transform: rotate(90deg);
+        font-weight: 500;
+        font-size:2rem;}
+        .header__socials{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 3rem;
+            position: absolute;
+            left: 0;
+            bottom: 12rem;
+        }
+        .header__img {
+            width: 30rem;
+            height: 30rem;
+            margin-left: -1%;
+            margin-top: -1rem;
+            
+        }
+        .me {
+            background: linear-gradient(var(--color-bg), transparent);
+            width: 30rem;
+            height: 30rem;
+            position: absolute;
+            left: calc(40% - 10rem);
+            margin-top: 4rem;
+            overflow: hidden;
+            padding: -8rem 1.5rem 1.5rem 1.5rem;
+            clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+            
+            
+        }
 }
 /*=============== MEDIA QUERIES (SMALL DEVICES)   =====================*/
 @media screen and (max-width: 600px) {
     header {
-        height: 100vh;
-        margin-bottom: -17rem;
+        height: 125vh;
+        margin-bottom: -40%;
     }
     .header__socials,
      .scroll__down {
         display: none;
+    }
+    .header__img {
+        width: 20rem;
+        height: 23rem;
+        margin-left: 0%;
+        margin-top: 3rem;
+        
+    }
+    .me {
+        background: linear-gradient(var(--color-bg), transparent);
+        width: 22rem;
+        height: 26rem;
+        position: absolute;
+        left: calc(45% - 10rem);
+        margin-top: 30%;
+        overflow: hidden;
+        padding: -8rem 1.5rem 1.5rem 1.5rem;
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+        
+    }
+    .header__container{
+        text-align: center;
+        height: 10%;
+        position: relative;
     }
 }
