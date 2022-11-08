@@ -21,17 +21,18 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experiencia</h5>
-              <small> 3+ años haciendo nada</small>
+              <small> 6 meses de trainee en Kyndryl Chile</small>
             </article>
             <article className='about__card'>
               <FiUsers className='about__icon'/>
-              <h5>Clientes</h5>
-              <small> 1+ con suerte</small>
+              <h5>Idiomas</h5>
+              <small> Español nativo </small>
+              <small> Ingles B1 </small>
             </article>
             <article className='about__card'>
               <ImFolderOpen className='about__icon'/>
               <h5>Proyectos</h5>
-              <small> 3 a medio completar</small>
+              <small> 1 proyecto en proceso </small>
             </article>
           </div>
     <p> Titulado de Analista de Sistemas en IPP, mi práctica profesional fue de 6 meses en Kyndryl (ex IBM) en la cual fui parte de diferentes proyectos de desarrollo web, enfocado en el Front end. En mi práctica pude obtener diferentes certificaciones enfocadas en metodología agile. Actualmente cuento con 6 meses de experiencia en desarrollo

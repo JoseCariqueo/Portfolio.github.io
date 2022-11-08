@@ -16,7 +16,7 @@ const Contact = () => {
   };
   return (
     <section id="contact">
-      <h5> Ponte vio</h5>
+      <h5> ¿Hablemos?</h5>
       <h2> Contactame</h2>
       <div className="container contact__container">
         <div className="contact__options">

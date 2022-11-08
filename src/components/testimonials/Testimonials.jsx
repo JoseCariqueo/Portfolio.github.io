@@ -3,6 +3,8 @@ import "./Testimonials.css";
 import AVTR1 from "../../assets/avatar1.jpeg";
 import AVTR2 from "../../assets/avatar2.jpeg";
 import AVTR3 from "../../assets/avatar3.jpg";
+import AVTR4 from "../../assets/avatar4.jpeg";
+import AVTR5 from "../../assets/avatar5.jpeg";
 
 // import Swiper core and required modules
 import {Pagination} from 'swiper';
@@ -33,6 +35,19 @@ const data = [
     position: "Senior network administrator",
     review: 'José es un trabajador muy profesional, prolijo y comprometido con las labores que desempeña, busca la mejor solución, considerando el costo beneficio. es una persona confiable y comprometida con la organización y su equipo de trabajo'
   },
+  {
+    avatar: AVTR4,
+    name: "Robert Calderon",
+    position: "Frontend developer",
+    review: 'Tuve la oportunidad de trabajar con José en el área de desarrollo de kyndryl, José se destaca por ser un gran profesional del área, muy proactivo y comprometido con sus labores, creativo en dar nuevas ideas y nuevos puntos de vista en los proyectos en los cuales trabajamos, siempre teniendo las ganas de aprender nuevas tecnologías y herramientas donde constantemente estaba predispuesto a compartir sus conocimientos y lo que iba aprendiendo.'
+  },
+  {
+    avatar: AVTR5,
+    name: "Francisca Benavides",
+    position: "Backend developer",
+    review: 'José Luis es un profesional con mucha inquietud en aprender, es autodidacta, siempre se ve muy interesado en obtener nuevos conocimientos y compartirlos con sus pares. En más de una ocasión ha obtenido información de cursos y aprendizajes necesarios para el desarrollo de un profesional que está iniciando en Ti y no duda en enviarlos y motivarte a hacerlos. Es una persona muy comprometida en todo lo que hace y un excelente compañero de equipo. Además de trabajar con el, fuimos compañeros de carrera y cada vez que realizamos trabajos en equipo, puedo decir con certeza que siempre se esforzó en hacer un trabajo mas allá de solo cumplir ya que se esmeraba en los detalles y la innovación constante.'
+   
+  }
 ]
 
 const Testimonials = () => {

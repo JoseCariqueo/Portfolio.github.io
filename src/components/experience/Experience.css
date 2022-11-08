@@ -10,7 +10,7 @@
     padding: 1.4rem 4rem;
     width: 25rem;
     height: 25rem;
-    margin-left: 15rem;
+    margin-left: 30%;
 
     border-radius: 2rem;
     border: 1px solid transparent;
@@ -53,7 +53,7 @@
     }
     .experience__container > div {
         width: 40%;
-        padding: 2rem;
+        padding:rem;
         margin: 0 auto;
     }
     .experience__content{
@@ -63,7 +63,7 @@
 }
 
 /*=============== MEDIA QUERIES (MEDIUM DEVICES)   =====================*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1px) {
     .experience__container{
         grid-template-columns: 1fr;
     }

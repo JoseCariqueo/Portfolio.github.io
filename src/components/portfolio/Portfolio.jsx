@@ -56,7 +56,7 @@ const Portfolio = () => {
   return (
     <section id='portfolio'>
       <h5>Mi trabajo reciente </h5>
-      <h2> Portfolio </h2>
+      <h2> Proyectos realizados / en proceso</h2>
       <div className="container portfolio__container">
         {
           data.map(({id,image,title,github,demo}) => {
